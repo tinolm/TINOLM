@@ -4,14 +4,17 @@ body {
 h1 {
   color: white;
   text-align: center;
+  font-family: sans-serif;
 }
 
 h2 {
   text-color: white;
   text-align: center;
+  font-family: sans-serif;
 }
 
 p {
   color: white;
   text-align: center;
+  font-family: sans-serif;
 }

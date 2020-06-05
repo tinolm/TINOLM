@@ -1,20 +1,97 @@
 body {
-  background-color: black;
+  background-image: url("https://raw.githubusercontent.com/learning-thing/My-HTML-website/master/endless%20background.png");
 }
 h1 {
   color: white;
   text-align: center;
-  font-family: sans-serif;
+  
+  
 }
 
-h3 {
-  color: white;
+h2 {
+  color: blue;
   text-align: center;
   font-family: sans-serif;
 }
 
 p {
   color: white;
-  text-align: center;
   font-family: sans-serif;
+  text-align: center;
+}
+
+.boxi {
+  width: 100px;
+  align-self: center;
+  height: 0;
+  border-style: solid;
+  animation: myanimation;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  outline-color: transparent;
+  border-color: transparent;
+
+}
+
+
+@keyframes myanimation {
+  0%   {width: 25; height: 0; border-radius: 0 0 0 0;}
+  25%  {width: 99%; height: 0; outline-color: blue; border-color: blue;}
+  50%  {width: 500px; height: 0; margin-left: 0%; outline-color: blue; color: red; border-color: crimson; color: blue;}
+  75%  {width: 25; height: 0; margin-left: 97%; outline-color: red; color: red; border-color: crimson;}
+  100% {width: 10; height: 0; border-radius: 0 0 0 0;}
+}
+
+
+
+.btn{
+  display: inline-block;
+  color: rgb(69, 184, 230);
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: rgba(30, 18, 199, 0.548) 1px solid;
+  margin: 10;
+  animation-name: btn;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  box-shadow: black;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+
+title {
+  font-family: sans-serif;
+  text-align: end;
+}
+
+iframe {
+  width: 100%;
+  height: 500;
+  font-family: sans-serif;
+  background-color: aliceblue;
+  outline: transparent;
+  border: transparent;
+}
+
+a {
+  font-family: sans-serif;
+  text-align: center;
+  text-underline
+}
+
+br {
+  background-color: rgba(0, 0, 29, 0.527);
+}
+
+.square {
+  margin: 100px;
+  height: 100p;
+  width: 85%;
+  border: 4px outset blue;
+  background-color: rgb(34, 31, 31, 0.5);
+  &.effekt:hover
+    box-shadow: inset 0 0 0 5
 }
